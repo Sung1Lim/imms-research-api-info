@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>IMMS Research Data Collector</title>
+
+  <meta
+    name="description"
+    content="Documentation page for the IMMS Research Data Collector, a non-commercial academic research tool operated by researchers at Busan University of Foreign Studies."
+  >
+
+  <style>
+    body {
+      font-family: Arial, "Noto Sans KR", sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.65;
+      color: #1f2937;
+    }
+
+    h1, h2 {
+      color: #17365d;
+    }
+
+    .notice {
+      background: #f3f6f9;
+      border-left: 4px solid #17365d;
+      padding: 14px 16px;
+      margin: 20px 0;
+    }
+
+    a {
+      color: #1558a6;
+    }
+
+    footer {
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>IMMS Research Data Collector</h1>
+
+  <p>
+    <strong>
+      Academic research tool operated by researchers at the
+      Institute for Migration and Multicultural Studies,
+      Busan University of Foreign Studies.
+    </strong>
+  </p>
+
+  <div class="notice">
+    <strong>Research documentation page.</strong><br>
+    This page documents an internal, non-commercial academic research tool.
+    It is not a public-facing YouTube service and is not the official website
+    of Busan University of Foreign Studies.
+  </div>
+
+  <h2>About the research</h2>
+
+  <p>
+    The IMMS Research Data Collector supports non-commercial academic
+    and public-policy research on publicly available online content related
+    to international-marriage brokerage advertising in South Korea.
+  </p>
+
+  <p>
+    The research program includes a 2026 academic study and a broader
+    longitudinal study covering content published from 2020 through 2026.
+  </p>
+
+  <p>
+    The research focuses on advertising structures, information provision,
+    promotional practices, and representational patterns in publicly
+    available content rather than on profiling individual people appearing
+    in videos.
+  </p>
+
+
+  <h2>Use of YouTube API Services</h2>
+
+  <p>
+    The research tool uses the <strong>YouTube Data API v3</strong>
+    to access public, non-authorized metadata for research purposes.
+  </p>
+
+  <p>
+    The current implementation uses public metadata endpoints such as
+    <code>videos.list</code> and does not require YouTube user login
+    or OAuth authorization.
+  </p>
+
+  <p>The research tool may process public metadata including:</p>
+
+  <ul>
+    <li>YouTube video IDs</li>
+    <li>video titles and descriptions</li>
+    <li>channel IDs</li>
+    <li>publication dates</li>
+    <li>video duration</li>
+    <li>public availability and upload-status information</li>
+    <li>caption-availability flags</li>
+    <li>region-restriction metadata when returned by the API</li>
+    <li>age-restriction metadata when returned by the API</li>
+  </ul>
+
+  <p>
+    The current research workflow does not collect YouTube login credentials,
+    individual viewing histories, subscriptions, private playlists, or
+    other private user-account information.
+  </p>
+
+
+  <h2>Research-only access</h2>
+
+  <p>
+    The API client is an internal command-line research tool used only
+    by authorized researchers.
+  </p>
+
+  <p>
+    It is not offered as a public application, commercial product,
+    video playback service, advertising service, recommendation service,
+    or user-profiling service.
+  </p>
+
+
+  <h2>Data use and safeguards</h2>
+
+  <ul>
+    <li>
+      YouTube API data are used only for documented academic and
+      public-policy research purposes.
+    </li>
+
+    <li>
+      Research data are not sold or used for advertising.
+    </li>
+
+    <li>
+      Access to research data is restricted to authorized researchers.
+    </li>
+
+    <li>
+      The research project does not infer sensitive personal traits such as
+      race, ethnicity, nationality, or age from appearance, voice, or names.
+    </li>
+
+    <li>
+      YouTube API data are stored, refreshed, or deleted in accordance with
+      applicable YouTube API Services policies.
+    </li>
+  </ul>
+
+
+  <h2 id="terms">Terms of Use</h2>
+
+  <p>
+    Authorized users of this API client must use it only for the approved
+    research purposes.
+  </p>
+
+  <p>
+    By using this API client, authorized users are also required to comply
+    with the
+    <a href="https://www.youtube.com/t/terms?utm_source=chatgpt.com">YouTube Terms of Service</a>,
+    the
+    <a href="https://developers.google.com/youtube/terms/api-services-terms-of-service?utm_source=chatgpt.com">
+      YouTube API Services Terms of Service
+    </a>,
+    and the
+    <a href="https://developers.google.com/youtube/terms/developer-policies?utm_source=chatgpt.com&amp;hl=ko">
+      YouTube API Services Developer Policies
+    </a>.
+  </p>
+
+  <p>
+    The client does not authorize researchers to circumvent authentication
+    requirements, age restrictions, geographic restrictions, DRM,
+    or other technical access controls.
+  </p>
+
+
+  <h2>Privacy</h2>
+
+  <p>
+    Please review the
+    <a href="privacy.html">IMMS Research Data Collector Privacy Policy</a>
+    for details about the information accessed, used, stored, refreshed,
+    protected, and deleted by the research tool.
+  </p>
+
+
+  <h2>Research organization</h2>
+
+  <p>
+    <strong>Organization:</strong>
+    Busan University of Foreign Studies
+    <br>
+
+    <strong>Research unit:</strong>
+    Institute for Migration and Multicultural Studies
+    <br>
+
+    <strong>Principal Investigator:</strong>
+    Jaehoon Ko
+    <br>
+
+    <strong>Research staff:</strong>
+    Sungwon Lim
+  </p>
+
+
+  <h2>Contact</h2>
+
+  <p>
+    Questions about this research tool or its privacy practices may be
+    directed to:
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    <a href="mailto:wonirosoida33@gmail.com">wonirosoida33@gmail.com</a>
+  </p>
+
+
+  <h2>한국어 안내</h2>
+
+  <p>
+    IMMS Research Data Collector는 부산외국어대학교 이주다문화연구소
+    연구진이 사용하는 비상업적 내부 연구도구입니다.
+  </p>
+
+  <p>
+    공개 YouTube 콘텐츠의 메타데이터를 YouTube Data API v3를 통해
+    확인하여 국제결혼중개 광고·홍보 관련 학술연구 및 공공정책 연구에
+    활용합니다.
+  </p>
+
+  <p>
+    현재 도구는 YouTube 사용자 로그인이나 OAuth 인증을 사용하지 않으며,
+    이용자의 시청기록, 구독정보, 로그인정보 등을 수집하지 않습니다.
+  </p>
+
+  <p>
+    본 연구도구는 일반 이용자에게 제공되는 YouTube 서비스가 아니라
+    승인된 연구자가 사용하는 내부 연구도구입니다.
+  </p>
+
+
+  <footer>
+    Last updated: 2026-11-17
+    <br><br>
+
+    This informational page is maintained for research documentation
+    and YouTube API compliance purposes.
+    It is not the official institutional website of
+    Busan University of Foreign Studies.
+  </footer>
+
+</body>
+</html>
